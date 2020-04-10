@@ -1,0 +1,274 @@
+{
+  "group":{
+    "id" : "base",
+    "name": "基本信息",
+    "list": [
+      {
+        "id": "certNo",
+        "name": "证件编号",
+        "tips": "系统生成",
+        "type": "1",
+        "attr": {
+          "nameChange": "0",
+          "print": "1",
+          "required": "0",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "expiredDate",
+        "name": "申报有效期范围",
+        "type": "3",
+        "format": "YYYY-MM-dd",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "trivelTime",
+        "name": "准行时段",
+        "type": "4",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "forbiddenTime",
+        "name": "禁行时段",
+        "type": "4",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "projectReason",
+        "name": "项目原因",
+        "tips": "请选择",
+        "type": "2",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      }
+    ]
+  },
+  "group":{
+    "id" : "company",
+    "name": "企业信息",
+    "list": [
+      {
+        "id": "declareCompany",
+        "name": "申报企业",
+        "tips": "请选择",
+        "type": "2",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "1"
+        }
+      }
+    ]
+  },
+  "group":{
+    "id" : "site",
+    "name": "场站信息",
+    "list": [
+      {
+        "id": "declareConstructionSite",
+        "name": "申报工地",
+        "tips": "请选择",
+        "type": "2",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "1"
+        }
+      },
+      {
+        "id": "declareEarthSite",
+        "name": "申报土场",
+        "tips": "请选择",
+        "type": "2",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "1"
+        }
+      }
+    ]
+  },
+  "group":{
+    "id" : "vehicle",
+    "name": "车辆信息",
+    "list": [
+      {
+        "id": "declareVehicle",
+        "name": "申报车辆",
+        "tips": "请选择",
+        "type": "6",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "secondedVehicle",
+        "name": "借调车辆",
+        "tips": "借调车辆",
+        "type": "6",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "1"
+        }
+      }
+    ]
+  },
+  "group":{
+    "id" : "route",
+    "name": "线路信息",
+    "list": [
+      {
+        "id": "routePlan",
+        "name": "线路规划",
+        "tips": "请绘制",
+        "type": "7",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "1"
+        }
+      }
+    ]
+  },
+  "group":{
+    "id" : "attachment",
+    "name": "附件信息",
+    "list": [
+      {
+        "id": "unearthedReport",
+        "name": "出土申报表",
+        "type": "5",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "demandReport",
+        "name": "需求申报表",
+        "type": "5",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "wasteTransPermit",
+        "name": "建筑垃圾运输证",
+        "type": "5",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "proofOfAcceptance",
+        "name": "接纳证明",
+        "type": "5",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "cleaningResponsibility",
+        "name": "保洁责任书",
+        "type": "5",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "carriageAgreement",
+        "name": "承运协议",
+        "type": "5",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "disposalPlan",
+        "name": "处置计划书",
+        "type": "5",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      },
+      {
+        "id": "siteExcavationPhotos",
+        "name": "工地出土照片",
+        "type": "5",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "0"
+        }
+      }
+    ]
+  },
+  "group":{
+    "id" : "specialConditions",
+    "name": "特殊条件",
+    "list": [
+      {
+        "id": "delayReport",
+        "name": "延期呈报",
+        "tips": "请选择",
+        "type": "2",
+        "attr": {
+          "nameChange": "1",
+          "print": "1",
+          "required": "1",
+          "processCondition": "1"
+        }
+      }
+    ]
+  }
+}
